@@ -18,7 +18,7 @@ jobs:
         uses: actions/setup-python@v3
       - name: Install sphinx dependencies
         run: |
-          pip install sphinx sphinx-rtd-theme myst_parser
+          pip install sphinx sphinx-rtd-theme numpydoc sphinx-notfound-page myst_parser
 
       - name: Install and Build 🔧 
         run: sphinx-build doc/source doc/build
