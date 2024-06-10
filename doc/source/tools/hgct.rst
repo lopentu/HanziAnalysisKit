@@ -212,6 +212,8 @@ IDC
     get_first_n(cql, 5)
 
 
+This prints:
+
 .. container:: output execute_result
 
       ::
